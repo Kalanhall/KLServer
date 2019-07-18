@@ -1,0 +1,16 @@
+PODS:
+  - KLServer (1.0.0)
+
+DEPENDENCIES:
+  - KLServer (from `../`)
+
+EXTERNAL SOURCES:
+  KLServer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KLServer: b37b4d567aa189afe1284ed316b4419f2029221e
+
+PODFILE CHECKSUM: 7399c99743b350fd3df629151fd67e13c9597652
+
+COCOAPODS: 1.7.3

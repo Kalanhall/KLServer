@@ -21,6 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		79CB79B122E00D0300B59A55 /* KLServer+LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB79AB22E00D0300B59A55 /* KLServer+LoginService.m */; };
+		79CB79B222E00D0300B59A55 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB79AC22E00D0300B59A55 /* LoginViewController.m */; };
+		79CB79B322E00D0300B59A55 /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 79CB79AD22E00D0300B59A55 /* LoginService.m */; };
 		82E1BA70C59C3BB9D3A0233A /* Pods_KLServer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98DDF066E19AD575EDB3881B /* Pods_KLServer_Tests.framework */; };
 		84A0A27406FAF9BD7F4E9DE0 /* Pods_KLServer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3967274B01868E36A3746D1 /* Pods_KLServer_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -37,7 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		45ED7D8E983D621F89E30C83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		45ED7D8E983D621F89E30C83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* KLServer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KLServer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,10 +63,16 @@
 		61258F9B7E215D7A7ED6A921 /* Pods-KLServer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLServer_Example.release.xcconfig"; path = "Target Support Files/Pods-KLServer_Example/Pods-KLServer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6F044904D42813476E0D910C /* Pods-KLServer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLServer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KLServer_Tests/Pods-KLServer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79CB79AB22E00D0300B59A55 /* KLServer+LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KLServer+LoginService.m"; sourceTree = "<group>"; };
+		79CB79AC22E00D0300B59A55 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		79CB79AD22E00D0300B59A55 /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
+		79CB79AE22E00D0300B59A55 /* KLServer+LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KLServer+LoginService.h"; sourceTree = "<group>"; };
+		79CB79AF22E00D0300B59A55 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		79CB79B022E00D0300B59A55 /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		98DDF066E19AD575EDB3881B /* Pods_KLServer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLServer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3208DCB7EA6756DFFBE9CDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CD247CC4D6D37719B6702235 /* KLServer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KLServer.podspec; path = ../KLServer.podspec; sourceTree = "<group>"; };
+		A3208DCB7EA6756DFFBE9CDB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CD247CC4D6D37719B6702235 /* KLServer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KLServer.podspec; path = ../KLServer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D3967274B01868E36A3746D1 /* Pods_KLServer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KLServer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8FBC5C9FB4895A5D42E6FD8 /* Pods-KLServer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLServer_Example.debug.xcconfig"; path = "Target Support Files/Pods-KLServer_Example/Pods-KLServer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F026FED81450D9ABA0F6934B /* Pods-KLServer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KLServer_Tests.release.xcconfig"; path = "Target Support Files/Pods-KLServer_Tests/Pods-KLServer_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +141,7 @@
 		6003F593195388D20070C39A /* Example for KLServer */ = {
 			isa = PBXGroup;
 			children = (
+				79CB79AA22E00D0300B59A55 /* LoginService */,
 				6003F59C195388D20070C39A /* KLAppDelegate.h */,
 				6003F59D195388D20070C39A /* KLAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -185,6 +195,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		79CB79AA22E00D0300B59A55 /* LoginService */ = {
+			isa = PBXGroup;
+			children = (
+				79CB79B022E00D0300B59A55 /* LoginService.h */,
+				79CB79AD22E00D0300B59A55 /* LoginService.m */,
+				79CB79AF22E00D0300B59A55 /* LoginViewController.h */,
+				79CB79AC22E00D0300B59A55 /* LoginViewController.m */,
+				79CB79AE22E00D0300B59A55 /* KLServer+LoginService.h */,
+				79CB79AB22E00D0300B59A55 /* KLServer+LoginService.m */,
+			);
+			path = LoginService;
+			sourceTree = "<group>";
+		};
 		8F0024E6442EE4C1512DE126 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,7 +216,6 @@
 				6F044904D42813476E0D910C /* Pods-KLServer_Tests.debug.xcconfig */,
 				F026FED81450D9ABA0F6934B /* Pods-KLServer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,9 +267,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = KL;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Kalanhall@163.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 579P9269QX;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +283,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -323,12 +349,9 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-KLServer_Example/Pods-KLServer_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/KLServer/KLServer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KLServer.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,9 +387,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79CB79B122E00D0300B59A55 /* KLServer+LoginService.m in Sources */,
+				79CB79B322E00D0300B59A55 /* LoginService.m in Sources */,
 				6003F59E195388D20070C39A /* KLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				79CB79B222E00D0300B59A55 /* LoginViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,23 +446,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -449,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,29 +500,43 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -494,6 +548,7 @@
 			baseConfigurationReference = E8FBC5C9FB4895A5D42E6FD8 /* Pods-KLServer_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KLServer/KLServer-Prefix.pch";
 				INFOPLIST_FILE = "KLServer/KLServer-Info.plist";
@@ -510,6 +565,7 @@
 			baseConfigurationReference = 61258F9B7E215D7A7ED6A921 /* Pods-KLServer_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 579P9269QX;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KLServer/KLServer-Prefix.pch";
 				INFOPLIST_FILE = "KLServer/KLServer-Info.plist";
